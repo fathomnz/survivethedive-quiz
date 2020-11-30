@@ -20,7 +20,7 @@ const questions = [
     choice2: "The red & white DAN flag",
     choice3: "The blue & white Alpha flag",
     choice4: "The upside-down Skull & Crossbones flag",
-    choice6: "All of the above are acceptable",
+    choice5: "All of the above are acceptable",
     answer: 3,
   },
   {
