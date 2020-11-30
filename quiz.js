@@ -7,7 +7,7 @@ let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
-const availableQuestions = [];
+let availableQuestions = [];
 
 const questions = [
   {
@@ -318,7 +318,7 @@ const questions = [
 
 // CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 20;
+const MAX_QUESTIONS = 3;
 
 startGame = () => {
   questionCounter = 0;
