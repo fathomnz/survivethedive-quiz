@@ -7,7 +7,7 @@ let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
-let availableQuesions = [];
+const availableQuestions = [];
 
 const questions = [
   {
@@ -318,23 +318,23 @@ const questions = [
 
 // CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 20;
 
 startGame = () => {
   questionCounter = 0;
   score = 0;
-  availableQuesions = [...questions];
+  availableQuestions = [...questions];
   getNewQuestion();
 };
 
 getNewQuestion = () => {
-  if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+  if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     // go to the end page
     return window.location.assign("/end.html");
   }
   questionCounter++;
-  const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-  currentQuestion = availableQuesions[questionIndex];
+  const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+  currentQuestion = availableQuestions[questionIndex];
   header.innerText = currentQuestion.header;
   statement.innerText = currentQuestion.statement;
   question.innerText = currentQuestion.question;
@@ -344,7 +344,7 @@ getNewQuestion = () => {
     choice.innerText = currentQuestion[`choice${number}`];
   });
 
-  availableQuesions.splice(questionIndex, 1);
+  availableQuestions.splice(questionIndex, 1);
   acceptingAnswers = true;
 };
 
