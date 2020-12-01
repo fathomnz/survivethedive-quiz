@@ -12,7 +12,7 @@ let questionCounter = 0;
 const availableQuestions = [];
 
 let questions = [];
-fetch("fathomed.github.io/survivethedive-quiz/questions.json")
+fetch("https://fathomed.github.io/survivethedive-quiz/questions.json")
   .then((res) => res.json())
   .then((loadedQuestions) => {
     console.log(loadedQuestions);
