@@ -314,7 +314,7 @@ const questions = [
     choice2: "The names of all the passengers",
     choice3: "The name and/or VHF call-sign of the vessel",
     choice4: "The general trip plan, destination and estimated time of return",
-    choice5: "Answers A, C and D",
+    choice5: "Answers A, C and D only",
     answer: 5,
   },
 ];
