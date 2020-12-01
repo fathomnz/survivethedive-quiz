@@ -339,6 +339,8 @@ getNewQuestion = () => {
 
   const questionIndex = Math.floor(Math.random() * availableQuesions.length);
   currentQuestion = availableQuesions[questionIndex];
+  header.innerText = currentQuestion.header;
+  statement.innerText = currentQuestion.statement;
   question.innerText = currentQuestion.question;
 
   choices.forEach((choice) => {
