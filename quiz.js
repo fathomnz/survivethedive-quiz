@@ -320,7 +320,7 @@ const questions = [
 ];
 
 // CONSTANTS
-const CORRECT_BONUS = 10;
+const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = 3;
 
 startGame = () => {
