@@ -4,7 +4,7 @@ const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
-const progressbarFull = document.getElementById("progressbarFull");
+const progressBarFull = document.getElementById("progressbarFull");
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -333,7 +333,7 @@ startGame = () => {
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     // go to the end page
-    return window.location.assign("/end.html");
+    return window.location.assign("/quiz-pages/quiz-end.html");
   }
   questionCounter++;
   progressText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
