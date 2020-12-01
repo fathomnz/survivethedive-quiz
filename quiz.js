@@ -376,5 +376,3 @@ choice.addEventListener("click", e => {
   }, 1000);
 });
 });
-
-startGame();
