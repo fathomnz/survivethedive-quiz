@@ -27,7 +27,7 @@ fetch("https://fathomed.github.io/survivethedive-quiz/questions.json")
 
 // CONSTANTS
 const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 20;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
   questionCounter = 0;
