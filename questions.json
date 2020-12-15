@@ -21,7 +21,7 @@
     },
     {
         "header": "In-water signalling devices & floats",
-        "question": "What are the benefits of carrying in-water signalling devices",
+        "question": "What are the benefits of carrying in-water signalling devices?",
         "choice1": "A signalling device can help vessels see you and take evasive action, even at times when you do not have a dive vessel in support",
         "choice2": "A signalling device can help your support vessel or other rescue vessel locate you in an emergency",
         "choice3": "Some signalling devices can provide additional floatation support for divers and spearfishers in distress",
@@ -51,7 +51,7 @@
     },
     {
         "header": "Safe Surfacing Procedures (part 1)",
-        "question": "Which of the following best describes dives requiring a safe rate of ascent, with safety stops.",
+        "question": "Which of the following best describes dives requiring a safe rate of ascent, with safety stops?",
         "choice1": "Only dives below 30-metres for more than 20-minutes",
         "choice2": "Only dives below 20-metres for more than 25-minutes",
         "choice3": "All dives using compressed air including SCUBA or air pumped from the surface via a hose",
@@ -61,17 +61,17 @@
     },
     {
         "header": "Safe Surfacing Procedures (part 2)",
-        "question": "Of the following statements regarding Safe Surfacing Procedures, which is the best answer",
-        "choice1": "A safe rate of ascent can be maintained by ascending slower than the smallest bubbles",
+        "question": "Of the following statements regarding Safe Surfacing Procedures, which is the best answer?",
+        "choice1": "Safe surfacing procedures apply and are recommemded for all dives",
         "choice2": "Safe Surfacing procedures do not apply to dives shallower than 10-metres",
         "choice3": "A dive computer is a useful tool for managing safe surfacing rates and procedures",
         "choice4": "A Safety Stop at 5-metres is mandatory for dives deeper than 18-metres or those approaching the no-decompression limit",
-        "choice5": "Answers A, C and E",
+        "choice5": "Answers A, C and D",
         "answer": 5
     },
     {
         "header": "Shallow-water blackout",
-        "question": "Which of the following is correct regarding shallow-water blackout?",
+        "question": "Which of the following is correct regarding shallow-water blackout when breath-hold diving?",
         "choice1": "Always dive with a buddy and maintain eye-contact with them as they are ascending",
         "choice2": "Hyperventilation has no effect on shallow-water blackout",
         "choice3": "If you have never suffered shallow-water blackout you are probably immune to its risks",
@@ -94,7 +94,7 @@
         "question": "How often should you have dive equipment professionally serviced?",
         "choice1": "No more frequently than once per year is recommended",
         "choice2": "At least once per year and before a dive trip if coming off a break from diving",
-        "choice3": "At least once per year and more frequently if diving often",
+        "choice3": "At least once per year or per manufacturers recommendations",
         "choice4": "At least once per year and any time you suspect reduced performance from your dive equipment.",
         "choice5": "Answers B, C and D",
         "answer": 5
@@ -112,9 +112,9 @@
     {
         "header": "New diver training",
         "question": "Which of following is the best answer regarding diver qualifications in New Zealand?",
-        "choice1": "The minimum age for diving qualifications in New Zealand is 12",
+        "choice1": "The minimum age for diving qualifications in New Zealand is 10",
         "choice2": "It is safe for unqualified divers to go SCUBA diving, if they stay within 10-metres of a qualified diver",
-        "choice3": "Online training is available beginner divers courses, with the practical components conducted in person",
+        "choice3": "Online training is available for the theory components diver certification, with the practical training in person",
         "choice4": "Answers A and C only",
         "choice5": "All of the above",
         "answer": 4
@@ -131,7 +131,7 @@
     },
     {
         "header": "Diver fitness",
-        "question": "Which of the following is the best answer regarding diver fitness",
+        "question": "Which of the following is the best answer regarding diver fitness?",
         "choice1": "A heart’s capacity to support the elevated blood output required by diving decreases with age",
         "choice2": "Some common medications such as beta blockers or anti-arrhythmia treatments can increase cardiac risk while diving",
         "choice3": "On descent, the heart rate slows to conserve oxygen and the lungs compress. Older divers should be cautious with dive depths",
@@ -144,7 +144,7 @@
         "question": "Which of the following is correct regarding diver medical checks?",
         "choice1": "Divers over the age of 40 do not need a medical if their BMI (body mass index) is between 18.5 and 24.9",
         "choice2": "An annual medical check is only recommended if you have been ill within the last 3-months",
-        "choice3": "An annual medical check is recommended for all divers over the age of 40",
+        "choice3": "An annual medical check is recommended for all divers over the age of 40 and those on specific medications",
         "choice4": "An annual medical check is only recommended for divers on specific prescription medicines",
         "choice5": "Answers A, B only",
         "answer": 3
@@ -153,8 +153,8 @@
         "header": "Alcohol and recreational drugs",
         "question": "Select the best answer regarding alcohol and recreational drugs, and diving?",
         "choice1": "Diving with a hangover is ok if your last drink was more than 8-hours ago",
-        "choice2": "Divers should avoid alcohol and recreational drugs within 8-hours of diving",
-        "choice3": "The presence of alcohol and drugs can significantly worsen the impairment effects of diving, including nitrogen narcosis",
+        "choice2": "Divers should avoid alcohol prior to at least 12-hours of diving. Drugs should be avoided without exception",
+        "choice3": "Alcohol and drugs significantly worsen the risks of diving, including decompression sickness & nitrogen narcosis",
         "choice4": "Alcohol can reduce a diver’s body heat and speed-up the onset of hypothermia ",
         "choice5": "Answers B, C and D only",
         "answer": 5
