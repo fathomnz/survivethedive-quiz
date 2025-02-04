@@ -1,0 +1,3 @@
+[submodule "survivethedive-quiz"]
+    path = survivethedive-quiz
+    url = https://github.com/fathomnz/survivethedive-quiz.git
